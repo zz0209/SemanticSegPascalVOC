@@ -1,0 +1,9 @@
+{
+    "model": "U-Net (ResNet18)",
+    "encoder": "ResNet18",
+    "augmentation": true,
+    "num_epochs": 20,
+    "best_val_iou": 0.13191667385218797,
+    "final_val_acc": 0.8010328500359146,
+    "training_time_minutes": 1.7015254100163777
+}

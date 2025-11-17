@@ -1,0 +1,17 @@
+{
+    "model": "DeepLabV3+",
+    "encoder": "ResNet50",
+    "pretrained": true,
+    "num_epochs": 30,
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "training_time_minutes": 4.169721901416779,
+    "best_val_iou": 0.3311965913436378,
+    "final_val_iou": 0.3311965913436378,
+    "final_val_acc": 0.8710269221553096,
+    "num_parameters": 26682725,
+    "train_samples": 209,
+    "val_samples": 213
+}

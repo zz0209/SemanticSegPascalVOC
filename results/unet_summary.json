@@ -1,0 +1,17 @@
+{
+    "model": "U-Net",
+    "encoder": "ResNet34",
+    "pretrained": true,
+    "num_epochs": 30,
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "training_time_minutes": 3.5927712082862855,
+    "best_val_iou": 0.17266717326019618,
+    "final_val_iou": 0.17266717326019618,
+    "final_val_acc": 0.8212796537964432,
+    "num_parameters": 24439269,
+    "train_samples": 209,
+    "val_samples": 213
+}

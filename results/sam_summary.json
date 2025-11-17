@@ -1,0 +1,17 @@
+{
+    "model": "SAM",
+    "encoder": "ViT-B",
+    "pretrained": true,
+    "num_epochs": 15,
+    "batch_size": 1,
+    "learning_rate": 1e-05,
+    "optimizer": "AdamW",
+    "loss_function": "CrossEntropyLoss",
+    "training_time_minutes": 91.27478042840957,
+    "best_val_iou": 0.1184035684154866,
+    "final_val_iou": 0.1184035684154866,
+    "final_val_acc": 0.7888213905370292,
+    "num_parameters": 94106053,
+    "train_samples": 209,
+    "val_samples": 213
+}

@@ -1,0 +1,9 @@
+{
+    "model": "U-Net (No Augmentation)",
+    "encoder": "ResNet34",
+    "augmentation": false,
+    "num_epochs": 20,
+    "best_val_iou": 0.14643434199649946,
+    "final_val_acc": 0.826698261278647,
+    "training_time_minutes": 2.1754542509714763
+}
